@@ -68,7 +68,7 @@ app.listen(3000);
 
 overwrite express/connect timeout middleware
 -------
-same api, req-timeout only augment the middleware with resetTimeout function.
+same api, req-timeout only augment the middleware with a resetTimeout function.
 
 ```javascript
 var express = require('express'),
