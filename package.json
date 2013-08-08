@@ -1,0 +1,19 @@
+{
+  "name": "req-timeout",
+  "version": "0.0.2",
+  "description": "set , reset and clear request timeout for connect and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git://github.com/advanced/req-timeout.git",
+  "keywords": [
+    "middleware",
+    "express",
+    "connect",
+    "timeout",
+    "request"
+  ],
+  "author": "Halid Rian",
+  "license": "MIT"
+}
