@@ -1,11 +1,9 @@
 req-timeout
 ===========
-
 set , reset and clear request timeout for connect and express
 
 Usage
 -----
-
 req-timeout is a middleware so you need to add it in your chain.
 
 ```javascript
@@ -27,7 +25,7 @@ app.use(app.router);
 
 app.get('/slow',function(req,res){
   setTimeout(function(){
-    res.send('too slow to actually matter, I will timeout');  
+    res.send('too slow to actually matter, should timeout');  
   },3500);
 })
 
@@ -38,7 +36,7 @@ app.get('/fast',function(req,res){
 app.get('/reset', function(req,res) {
   req.resetTimeOut(4000)
 	setTimeout(function() {
-		res.send('should be OK, my time has been extended');
+		res.send('should be OK, time has been extended');
 	}, 3500);
 })
 
