@@ -2,6 +2,12 @@ req-timeout
 ===========
 set , reset and clear request timeout for connect and express
 
+installation
+-----
+```bash
+npm install req-timeout
+```
+
 Usage
 -----
 req-timeout is a middleware so you need to add it in your chain.
