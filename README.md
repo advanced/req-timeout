@@ -49,3 +49,17 @@ app.get('/clear', function(req,res) {
 
 app.listen(3000);
 ```
+
+overwrite express default timeout middleware
+-------
+```javascript
+var express = require('express'),
+    timeout = require('req-timeout'), 
+    express.timeout = timeout,
+    app = express();
+    
+    app.use(express.timeout(3000));
+    
+    ....
+````
+
