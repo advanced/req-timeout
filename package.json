@@ -1,6 +1,6 @@
 {
   "name": "req-timeout",
-  "version": "0.0.2",
+  "version": "1.0.2",
   "description": "set , reset and clear request timeout for connect and express",
   "main": "index.js",
   "scripts": {
